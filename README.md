@@ -4,6 +4,14 @@
 
 ---
 
+## ⚠️ Disclaimer & PoC Limitations
+
+* **Benchmark Context:** The 100.00% accuracy score demonstrated in the stress test suite is the result of calibrating thresholds and subspace anchors specifically tailored to the evaluated dataset boundaries.
+* **Production Deployment Notice:** In real-world production environments, diverse edge cases, out-of-distribution (OOD) language nuances, and evolving jailbreak techniques will require continuous dataset expansion, anchor re-calibration, and domain-specific tuning.
+* **Core Objective:** This project serves primarily as a **Proof-of-Concept (PoC)** to showcase the architectural feasibility and speed (~48 ms latency) of leveraging vector space projections and active deception mechanics for LLM safety guardrails.
+
+---
+
 ## ✨ Key Features
 
 * **Tri-State Decision Architecture:**
@@ -75,7 +83,7 @@ Installation
 Clone the repository:
 
 ```
-git clone [https://github.com/your-username/bangsaen-active-defense.git](https://github.com/your-username/bangsaen-active-defense.git)
+git clone [https://github.com/bangsaenai/bangsaen-active-defense.git](https://github.com/bangsaenai/bangsaen-active-defense.git)
 cd bangsaen-active-defense 
 
 ``` 
