@@ -1,0 +1,15 @@
+# ซ่อน PyCache และ Virtual Environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# ซ่อนไฟล์ .py ทั้งหมดในโฟลเดอร์ tests เป็นค่าเริ่มต้น
+tests/*.py
+
+# อนุญาตเฉพาะ 2 ไฟล์ทดสอบนี้เท่านั้น
+!tests/demo_active_defense.py
+!tests/stress_test_100.py
